@@ -1,0 +1,84 @@
+Loop is a contition where the program repeats a code block n time
+
+steps for making a loop:->
+        1) Initialization -> the start for the loop
+        2) Termination condition -> the condition for ending the loop
+        3) Updation -> 
+
+2 type
+
+    Entry control loop:
+        the loop cheaks the condition at the entry
+            for loop-> 
+                for(intializaion;condition;updatation){
+                    body
+                }
+
+                We know the number of times the loop will run
+
+            while loop->
+                while(<condition>){
+                    body
+                    
+                    <updatation>;
+                }
+
+                when the number of time the loop will run is unknown
+                
+    Exit contorl loop:
+        the loop cheaks the codition at the exit
+            do while ->
+                do{
+                    body;
+                } while (<condition>);
+
+                use for menu driven program
+____________________________________________________________
+
+armstron 
+perfect
+prim
+menu one
+_____________________________________________________________
+WAP to find sum and avg of odd intergers bween 300 to 600 which are diviable by 5
+____________________________________________________________
+the chara againts the ascii numbers from 32 to 126
+_______________________________________________
+NO NEED
+
+print prime in a range
+_____________________________________________________________________________________________________________________________________________
+Array is derived datatype and it is the collection of more than one data item of the smae stored at continous/contigous memory location
+
+
+<datatype> name[<size>] = {n1,n2,n3,...,n};
+_____________________________________________________________________________________________________________________________________________
+WAP to delete an elemt form a Array
+
+WAP to sort an Array
+
+
+WAP a mune where a user
+1 will enter one to add matric
+2 will sub
+3 eill mul
+4 transpose
+_____________________________________________________________________________________________________________________________________________
+
+int <name>[i][j] = {{n11,n12,n13,...,n1n},{n21,n22,n23,...,n2n},{n31,n32,n33,...,n3n},...,{nn1,nn2,nn3,...,nnn}}
+
+_____________________________________________________________________________________________________________________________________________
+
+redundant data = recursion copy of data
+
+function are exticuted in the stack section
+
+the pass throug the main in acutal
+
+the pass throug dicrelation is fromal
+
+_____________________________________________________________________________________________________________________________________________
+
+WAP to different to number by call by valus and call by refereance
+
+fab
