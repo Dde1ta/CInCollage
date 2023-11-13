@@ -5,17 +5,17 @@
 #include <stdio.h>
 
 int main(){
-    int arr[3][30],i,j;
+    int arr[30][3],i,j;
 
-    for(i = 1;i<=3;i++){
-        printf("Enter the marks of subject %d",i);
-        for(j = 0;j<30;j++){
+    for(i = 1;i<=30;i++){
+        printf("Enter the marks of student no. %d: ",i);
+        for(j = 0;j<3;j++){
             scanf("%d",&arr[i-1][j]);
         }
     }
-    for(i = 1;i<=3;i++){
-        printf("The marks of subject %d",i);
-        for(j = 0;j<30;j++){
+    for(i = 1;i<=30;i++){
+        printf("The marks of student %d are: ",i);
+        for(j = 0;j<3;j++){
             printf("%d ",arr[i-1][j]);
         }
         printf("\n");

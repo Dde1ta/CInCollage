@@ -9,7 +9,7 @@ int main(){
     int i;
     for(i = 2;i<=100;i++){
         if(isPrime(i)){
-            printf("%d ",i);
+            printf("%d,",i);
         }
    }
 }
@@ -18,6 +18,8 @@ int isPrime(int a){
     int i;
     if(a == 2 || a == 3){
         return 1;
+    }else if(a%2 == 0){
+        return 0;
     }
     for(i = 2;i<=a/3+1;i++){
         if(a%i == 0){
