@@ -82,3 +82,29 @@ ________________________________________________________________________________
 WAP to different to number by call by valus and call by refereance
 
 fab
+______________________________________________________________________________________________________________________________________________
+Static Memory Allocation or Complietime memory allocation (SMA) -> done during compile time
+    -> complier is deciding 
+    -> variable created by using sma are in the stack section 
+    -> we cannot change the size of the variable
+Dynamic Memory Allocation (DMA) or Runtime memory allocation -> done during runtime time / while execution
+    -> decided at the runtime
+    -> variable created using dma are in heap section.
+    -> We can alter the size of the variable.
+
+    import stdlib
+    the for fuction are
+        malloc() -> use to create variables.
+        calloc() -> use to create variable.
+        realloc() -> use to reallocation of memory of those varible made by malloc or calloc.
+        free() -> use to free memory or delete it.
+
+Memory Allocation -> (Typecast*) malloc(<SIZE>);
+    returns a void pointer we memory is sucssefull if not it return a null pointer
+    usage:-
+        int *p;
+        p = (int*) malloc(20); // creates a variable with 20 bytes of  data
+        free(p); // free the variable
+        // the deflaut is grabge
+
+    

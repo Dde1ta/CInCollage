@@ -26,9 +26,9 @@ int main(){
     scanf(" %c",&p1.z);
     printf("z is %c\nEnter the value of x:",p1.z);
     scanf("%d",&p1.x);
-    printf("z is %d\nEnter the value of y:",p1.x);
+    printf("x is %d\nEnter the value of y:",p1.x);
     scanf("%d",&p1.y);
-    printf("z is %d\n",p1.y);
+    printf("y is %d\n",p1.y);
 
     printf("The diff is \nthe size of struct = %d\nthe size of union = %d",sizeof(p),sizeof(p1));
     return 0;
