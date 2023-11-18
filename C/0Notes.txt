@@ -115,5 +115,12 @@ Contigous Allocation -> (Typecast*) calloc(<number of element>,<SIZE>);
         p = (int*) calloc(5,20); // creates 5 slot with 20 bytes of  data
         free(p); // free the variable
         // the deflaut is grabge
-
+_____________________________________________________________________________________________________________________________________________
+Reallocation -> (Typecast*) realloc(<name of the pointer>,<new size>)
+    usage:-
+        int *p;
+        p = (int*) calloc(5,20); // creates 5 slot with 20 bytes of  data
+        p = (int*) realloc(p,7*sizeof(int));
+        free(p); // free the variable
+        // the deflaut is grabge
     

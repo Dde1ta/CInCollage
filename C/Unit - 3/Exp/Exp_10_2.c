@@ -1,0 +1,3 @@
+/*
+Wap create one array and shearh using leren sherach
+*/

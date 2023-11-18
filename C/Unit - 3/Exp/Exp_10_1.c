@@ -1,0 +1,3 @@
+/*
+Wap to store a string in the block of memory space created by malloc and moldfy it to store a large string
+*/
