@@ -98,12 +98,21 @@ Dynamic Memory Allocation (DMA) or Runtime memory allocation -> done during runt
         calloc() -> use to create variable.
         realloc() -> use to reallocation of memory of those varible made by malloc or calloc.
         free() -> use to free memory or delete it.
-
+_____________________________________________________________________________________________________________________________________________
 Memory Allocation -> (Typecast*) malloc(<SIZE>);
     returns a void pointer we memory is sucssefull if not it return a null pointer
     usage:-
         int *p;
         p = (int*) malloc(20); // creates a variable with 20 bytes of  data
+        free(p); // free the variable
+        // the deflaut is grabge
+_____________________________________________________________________________________________________________________________________________
+Contigous Allocation -> (Typecast*) calloc(<number of element>,<SIZE>);
+    the deflaut is 0
+    returns a void pointer we memory is sucssefull if not it return a null pointer
+    usage:-
+        int *p;
+        p = (int*) calloc(5,20); // creates 5 slot with 20 bytes of  data
         free(p); // free the variable
         // the deflaut is grabge
 
