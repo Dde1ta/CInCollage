@@ -9,14 +9,13 @@ int main(){
     printf("Enter the size:");
     scanf("%d",&size);
 
-    char *p = (char*)malloc((size*sizeof(char)) + 1);
+    char *p = (char*)malloc(size*sizeof(char)+1);
 
     printf("Enter the string");
-    for(i = 0;i<size;i++){
+    for(i = 0;i<=size;i++){
         scanf("%c",p+i);
     }
-    i = 0;
-    for(i = 0;i<size;i++){
+    for(i = 0;i<=size;i++){
         printf("%c",*(p+i));
     }
     return 0;

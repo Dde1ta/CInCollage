@@ -3,7 +3,7 @@ Wap create one array and shearh using leren sherach
 */
 #include<stdio.h>
 #include<stdlib.h>
-
+int linear(int*,int,int);
 int main(){
     int *p,size,to_find,i;
     printf("Enter the size of array:");
@@ -17,6 +17,12 @@ int main(){
     printf("Enter the element two find");
     scanf("%d",&to_find);
 
+    linear(p,size,to_find);
+    
+    return 0;
+}
+int linear(int* p,int size,int to_find){
+    int i;
     for(i = 0;i<size;i++){
         if(*(p+i) == to_find){
             printf("Found at this index %d",i);
