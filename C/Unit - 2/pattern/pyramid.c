@@ -9,7 +9,7 @@ int main(){
     for(b=0;b<=a*2;b++){
         if(b%2 !=0){
             printf("\n");
-            for(spaces = 0;spaces<(a*2-b)/2+1; spaces++){
+            for(spaces = 0;spaces<(a*2-b)/2; spaces++){
                 printf(" ");
             }
             for(i = 0;i<b;i++){

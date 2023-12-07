@@ -1,7 +1,7 @@
 #include<stdio.h>
 
 int main(){
-    int arr[200],i,j,size,to_find,place,i_;
+    int arr[200],i,j,size,place,i_;
     printf("Enter the size of the list:");
     scanf("%d",&size);
 

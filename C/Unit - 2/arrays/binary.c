@@ -22,7 +22,7 @@ int main(){
 
     start = 0;
     end = size -1;
-    while(start <= end){
+    while(start <= end-2){
         mid = (start + end) / 2;
         if(arr[mid] == to_find){
             printf("Element at %d",++mid);

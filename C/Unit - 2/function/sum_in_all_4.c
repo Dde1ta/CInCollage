@@ -10,7 +10,7 @@ void sum_3(int a, int b);
 int sum_4(int a, int b);
 
 int main(){
-    int a,b,sum;
+    static int a,b,sum;
     printf("Enter the numbers");
     scanf("%d %d",&a,&b);
 
