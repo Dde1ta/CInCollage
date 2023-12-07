@@ -7,6 +7,7 @@ int main(){
     printf("Enter the numbers");
     scanf("%d %d",&a,&b);
     printf("%d",gcd(a,b));
+    printf("%d",sizeof(gcd));
 }
 
 int gcd(int a, int b){
