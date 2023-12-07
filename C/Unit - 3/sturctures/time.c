@@ -1,7 +1,6 @@
 #include<stdio.h>
 
-struct time
-{
+struct time{
     int sec,min,hour;
 };
 
@@ -24,21 +23,23 @@ int main(){
 struct time add_time(struct time t1,struct time t2){
     struct time t3;
     int sec_a,min_a,hour_a;
+
     sec_a = t1.sec + t2.sec;
     min_a = t1.min + t2.min;
     hour_a = t1.hour + t2.hour;
+
     if(sec_a >= 60){
         sec_a -= 60;
         min_a += 1;
-        
     }
     if(min_a >= 60){
         min_a -= 60;
         hour_a += 1;
-        
     }
+
     t3.sec = sec_a;
     t3.min = min_a;
     t3.hour = hour_a;
+
     return t3;
 }
