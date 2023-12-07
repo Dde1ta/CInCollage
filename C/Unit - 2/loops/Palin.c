@@ -9,6 +9,8 @@ int main(){
     while(m != 0){
         _n = _n*10 + m%10;
         m /= 10;
+        printf("%d %d\n",m,_n);
+        scanf("%c");
     }
     if(n == _n){
         printf("Yes");
