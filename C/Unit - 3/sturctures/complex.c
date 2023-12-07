@@ -1,3 +1,7 @@
+/*
+
+*/
+
 #include<stdio.h>
 
 struct com{

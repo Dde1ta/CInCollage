@@ -2,5 +2,5 @@
 
 struct time
 {
-    int sec,min,
+    int sec,min;
 };
